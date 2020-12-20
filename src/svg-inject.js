@@ -8,6 +8,8 @@
  * @license MIT License - https://github.com/iconfu/svg-inject/blob/master/LICENSE
  */
 
+if (typeof window === 'undefined') return;
+
 (function(window, document) {
   // constants for better minification
   var _CREATE_ELEMENT_ = 'createElement';
